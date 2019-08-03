@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gmall-framework-common/gmall-framework-common.iml" filepath="$PROJECT_DIR$/gmall-framework-common/gmall-framework-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-framework-parent/gmall-framework-parent.iml" filepath="$PROJECT_DIR$/gmall-framework-parent/gmall-framework-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-microservice-edu/gmall-microservice-edu.iml" filepath="$PROJECT_DIR$/gmall-microservice-edu/gmall-microservice-edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/shadow-school.iml" filepath="$PROJECT_DIR$/.idea/shadow-school.iml" />
+    </modules>
+  </component>
+</project>
