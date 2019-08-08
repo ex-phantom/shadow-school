@@ -78,6 +78,14 @@ public class ChapterAdminController {
         }
         return  R.error();
     }
+    @ApiOperation(value = "根据Id查找教师信息")
+    @GetMapping("{id}")
+    public R getTeacher(
+            @ApiParam(name = "id", value = "讲师ID", required = true)
+            @PathVariable String id){
+        Teacher teacher = this.teacherService.getById(id);
+        return R.ok().data("teacher",teacher);
+    }
 
     @ApiOperation(value = "根据Id修改教师信息")
     @PutMapping("{id}")

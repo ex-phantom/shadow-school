@@ -1,0 +1,33 @@
+2019-08-06 09:05:56.229 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-08-06 09:51:35.680 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-08-06 10:13:56.533 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-08-06 10:26:47.317 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-08-06 19:08:37.938 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-08-06 20:02:47.304 [http-nio-8110-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'level' doesn't have a default value
+### The error may exist in com/shadow/edu/mapper/TeacherMapper.java (best guess)
+### The error may involve com.shadow.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career,  avatar, sort,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?,  ?, ?,  ?, ? )
+### Cause: java.sql.SQLException: Field 'level' doesn't have a default value
+; Field 'level' doesn't have a default value; nested exception is java.sql.SQLException: Field 'level' doesn't have a default value
+2019-08-06 20:04:57.863 [http-nio-8110-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'level' doesn't have a default value
+### The error may exist in com/shadow/edu/mapper/TeacherMapper.java (best guess)
+### The error may involve com.shadow.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career,  avatar, sort,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?,  ?, ?,  ?, ? )
+### Cause: java.sql.SQLException: Field 'level' doesn't have a default value
+; Field 'level' doesn't have a default value; nested exception is java.sql.SQLException: Field 'level' doesn't have a default value
+2019-08-06 20:42:22.840 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-08-06 21:09:18.934 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-08-06 21:22:58.131 [http-nio-8110-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'level' doesn't have a default value
+### The error may exist in com/shadow/edu/mapper/TeacherMapper.java (best guess)
+### The error may involve com.shadow.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career,  avatar, sort,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?,  ?, ?,  ?, ? )
+### Cause: java.sql.SQLException: Field 'level' doesn't have a default value
+; Field 'level' doesn't have a default value; nested exception is java.sql.SQLException: Field 'level' doesn't have a default value
+2019-08-06 21:38:27.957 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-08-06 21:39:59.792 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server

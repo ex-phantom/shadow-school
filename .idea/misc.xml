@@ -6,6 +6,11 @@
         <option value="$PROJECT_DIR$/gmall-framework-parent/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-framework-common/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-microservice-edu/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-commonservice-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-microservice-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-microservice-statistics/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-microservice-sysuser/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-microservice-ucenter/pom.xml" />
       </list>
     </option>
   </component>

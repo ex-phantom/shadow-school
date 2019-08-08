@@ -1,0 +1,54 @@
+2019-08-08 15:28:33.677 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field ucenterClient in com.shadow.statistics.service.impl.DailyServiceImpl required a bean of type 'com.shadow.common.client.UcenterClient' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.shadow.common.client.UcenterClient' in your configuration.
+
+2019-08-08 15:31:28.764 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field ucenterClient in com.shadow.statistics.service.impl.DailyServiceImpl required a bean of type 'com.shadow.common.client.UcenterClient' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.shadow.common.client.UcenterClient' in your configuration.
+
+2019-08-08 15:34:00.190 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field ucenterClient in com.shadow.statistics.service.impl.DailyServiceImpl required a bean of type 'com.shadow.common.client.UcenterClient' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.shadow.common.client.UcenterClient' in your configuration.
+

@@ -1,0 +1,28 @@
+2019-08-07 09:33:15.057 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-08-07 09:35:15.471 [http-nio-8110-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'level' doesn't have a default value
+### The error may exist in com/shadow/edu/mapper/TeacherMapper.java (best guess)
+### The error may involve com.shadow.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career,  avatar, sort,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?,  ?, ?,  ?, ? )
+### Cause: java.sql.SQLException: Field 'level' doesn't have a default value
+; Field 'level' doesn't have a default value; nested exception is java.sql.SQLException: Field 'level' doesn't have a default value
+2019-08-07 10:00:57.484 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-08-07 19:02:05.668 [http-nio-8110-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: ExceptionUtil{code='21005'}
+2019-08-07 19:02:36.994 [http-nio-8110-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: ExceptionUtil{code='21005'}
+2019-08-07 19:07:56.262 [http-nio-8110-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: ExceptionUtil{code='21005'}
+2019-08-07 19:11:51.793 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1m1s204ms836µs106ns).
+2019-08-07 19:11:51.862 [http-nio-8110-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: ExceptionUtil{code='21005'}
+2019-08-07 19:13:04.459 [http-nio-8110-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: ExceptionUtil{code='21005'}
+2019-08-07 19:20:05.167 [http-nio-8110-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: ExceptionUtil{code='21005'}
+2019-08-07 19:24:21.651 [http-nio-8110-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: ExceptionUtil{code='21005'}
+2019-08-07 19:26:24.315 [http-nio-8110-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: ExceptionUtil{code='21005'}
+2019-08-07 19:59:27.374 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-08-07 21:29:02.568 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-07 21:29:02.577 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-07 21:40:18.963 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-07 21:40:18.970 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-07 21:41:23.552 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-07 21:41:23.559 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-07 21:42:44.689 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-07 21:42:44.699 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

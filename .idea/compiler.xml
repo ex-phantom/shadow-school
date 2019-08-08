@@ -6,14 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gmall-commonservice-eureka" />
         <module name="gmall-framework-common" />
         <module name="gmall-microservice-edu" />
+        <module name="gmall-microservice-sso" />
+        <module name="gmall-microservice-statistics" />
+        <module name="gmall-microservice-sysuser" />
+        <module name="gmall-microservice-ucenter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="gmall-commonservice-eureka" target="1.8" />
       <module name="gmall-framework-common" target="1.8" />
       <module name="gmall-framework-parent" target="1.8" />
       <module name="gmall-microservice-edu" target="1.8" />
+      <module name="gmall-microservice-sso" target="1.8" />
+      <module name="gmall-microservice-statistics" target="1.8" />
+      <module name="gmall-microservice-sysuser" target="1.8" />
+      <module name="gmall-microservice-ucenter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
